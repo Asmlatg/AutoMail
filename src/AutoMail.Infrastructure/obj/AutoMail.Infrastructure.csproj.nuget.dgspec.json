@@ -1,0 +1,178 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/asmae/Bureau/EmailingDivia/AutoMail/src/AutoMail.Infrastructure/AutoMail.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "/home/asmae/Bureau/EmailingDivia/AutoMail/src/AutoMail.Application/AutoMail.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/asmae/Bureau/EmailingDivia/AutoMail/src/AutoMail.Application/AutoMail.Application.csproj",
+        "projectName": "AutoMail.Application",
+        "projectPath": "/home/asmae/Bureau/EmailingDivia/AutoMail/src/AutoMail.Application/AutoMail.Application.csproj",
+        "packagesPath": "/home/asmae/.nuget/packages/",
+        "outputPath": "/home/asmae/Bureau/EmailingDivia/AutoMail/src/AutoMail.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/asmae/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/asmae/Bureau/EmailingDivia/AutoMail/src/AutoMail.Domain/AutoMail.Domain.csproj": {
+                "projectPath": "/home/asmae/Bureau/EmailingDivia/AutoMail/src/AutoMail.Domain/AutoMail.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/8.0.119/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/asmae/Bureau/EmailingDivia/AutoMail/src/AutoMail.Domain/AutoMail.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/asmae/Bureau/EmailingDivia/AutoMail/src/AutoMail.Domain/AutoMail.Domain.csproj",
+        "projectName": "AutoMail.Domain",
+        "projectPath": "/home/asmae/Bureau/EmailingDivia/AutoMail/src/AutoMail.Domain/AutoMail.Domain.csproj",
+        "packagesPath": "/home/asmae/.nuget/packages/",
+        "outputPath": "/home/asmae/Bureau/EmailingDivia/AutoMail/src/AutoMail.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/asmae/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/8.0.119/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/asmae/Bureau/EmailingDivia/AutoMail/src/AutoMail.Infrastructure/AutoMail.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/asmae/Bureau/EmailingDivia/AutoMail/src/AutoMail.Infrastructure/AutoMail.Infrastructure.csproj",
+        "projectName": "AutoMail.Infrastructure",
+        "projectPath": "/home/asmae/Bureau/EmailingDivia/AutoMail/src/AutoMail.Infrastructure/AutoMail.Infrastructure.csproj",
+        "packagesPath": "/home/asmae/.nuget/packages/",
+        "outputPath": "/home/asmae/Bureau/EmailingDivia/AutoMail/src/AutoMail.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/asmae/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/asmae/Bureau/EmailingDivia/AutoMail/src/AutoMail.Application/AutoMail.Application.csproj": {
+                "projectPath": "/home/asmae/Bureau/EmailingDivia/AutoMail/src/AutoMail.Application/AutoMail.Application.csproj"
+              },
+              "/home/asmae/Bureau/EmailingDivia/AutoMail/src/AutoMail.Domain/AutoMail.Domain.csproj": {
+                "projectPath": "/home/asmae/Bureau/EmailingDivia/AutoMail/src/AutoMail.Domain/AutoMail.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/8.0.119/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
