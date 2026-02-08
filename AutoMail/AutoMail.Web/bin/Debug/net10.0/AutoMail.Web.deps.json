@@ -9,7 +9,8 @@
       "AutoMail.Web/1.0.0": {
         "dependencies": {
           "AutoMail.Application": "1.0.0",
-          "AutoMail.Infrastructure": "1.0.0"
+          "AutoMail.Infrastructure": "1.0.0",
+          "Swashbuckle.AspNetCore": "10.1.2"
         },
         "runtime": {
           "AutoMail.Web.dll": {}

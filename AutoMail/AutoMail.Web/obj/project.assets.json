@@ -311,10 +311,12 @@
       "Microsoft.Extensions.ApiDescription.Server/10.0.0": {
         "type": "package",
         "build": {
-          "build/_._": {}
+          "build/Microsoft.Extensions.ApiDescription.Server.props": {},
+          "build/Microsoft.Extensions.ApiDescription.Server.targets": {}
         },
         "buildMultiTargeting": {
-          "buildMultiTargeting/_._": {}
+          "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.props": {},
+          "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.targets": {}
         }
       },
       "Microsoft.Extensions.DependencyModel/10.0.2": {
@@ -635,10 +637,10 @@
           "Swashbuckle.AspNetCore.SwaggerUI": "10.1.2"
         },
         "build": {
-          "build/_._": {}
+          "build/Swashbuckle.AspNetCore.props": {}
         },
         "buildMultiTargeting": {
-          "buildMultiTargeting/_._": {}
+          "buildMultiTargeting/Swashbuckle.AspNetCore.props": {}
         }
       },
       "Swashbuckle.AspNetCore.Swagger/10.1.2": {
@@ -2051,7 +2053,8 @@
   "projectFileDependencyGroups": {
     "net10.0": [
       "AutoMail.Application >= 1.0.0",
-      "AutoMail.Infrastructure >= 1.0.0"
+      "AutoMail.Infrastructure >= 1.0.0",
+      "Swashbuckle.AspNetCore >= 10.1.2"
     ]
   },
   "packageFolders": {
@@ -2104,6 +2107,12 @@
     "frameworks": {
       "net10.0": {
         "targetAlias": "net10.0",
+        "dependencies": {
+          "Swashbuckle.AspNetCore": {
+            "target": "Package",
+            "version": "[10.1.2, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
