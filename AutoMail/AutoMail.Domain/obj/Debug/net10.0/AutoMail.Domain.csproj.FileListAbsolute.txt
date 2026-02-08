@@ -1,0 +1,12 @@
+/home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Domain/bin/Debug/net10.0/AutoMail.Domain.deps.json
+/home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Domain/bin/Debug/net10.0/AutoMail.Domain.dll
+/home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Domain/bin/Debug/net10.0/AutoMail.Domain.pdb
+/home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Domain/obj/Debug/net10.0/AutoMail.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Domain/obj/Debug/net10.0/AutoMail.Domain.AssemblyInfoInputs.cache
+/home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Domain/obj/Debug/net10.0/AutoMail.Domain.AssemblyInfo.cs
+/home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Domain/obj/Debug/net10.0/AutoMail.Domain.csproj.CoreCompileInputs.cache
+/home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Domain/obj/Debug/net10.0/AutoMail.Domain.sourcelink.json
+/home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Domain/obj/Debug/net10.0/AutoMail.Domain.dll
+/home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Domain/obj/Debug/net10.0/refint/AutoMail.Domain.dll
+/home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Domain/obj/Debug/net10.0/AutoMail.Domain.pdb
+/home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Domain/obj/Debug/net10.0/ref/AutoMail.Domain.dll

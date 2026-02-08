@@ -10,4 +10,10 @@
       <ProjectReference Include="..\AutoMail.Domain\AutoMail.Domain.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="MediatR" Version="14.0.0" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.2" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.2" />
+    </ItemGroup>
+
 </Project>
