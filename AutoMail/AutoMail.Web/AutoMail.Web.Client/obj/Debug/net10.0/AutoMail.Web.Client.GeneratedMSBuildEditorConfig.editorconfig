@@ -32,6 +32,10 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Web/AutoMail.Web.Client/Pages/UploardReceipt.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXBsb2FyZFJlY2VpcHQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Web/AutoMail.Web.Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,110 @@
+@page "/upload-receipt"
+@inject HttpClient Http
+@using System.Net.Http.Headers
+
+<PageTitle>Upload Transport Receipt</PageTitle>
+
+<h3>Submit Transport Receipt</h3>
+
+<div class="card p-4 shadow-sm mb-4">
+    <div class="mb-3">
+        <label for="hrEmail" class="form-label fw-bold">HR Email Address</label>
+        <input type="email" class="form-control" id="hrEmail" @bind="hrEmail" placeholder="hr@company.com" />
+    </div>
+
+    <div class="mb-3">
+        <label for="receiptFile" class="form-label fw-bold">Select PDF Receipt</label>
+        <InputFile OnChange="HandleFileSelected" accept=".pdf" class="form-control" id="receiptFile" />
+        @if (selectedFile != null)
+        {
+            <div class="form-text text-muted mt-1">
+                Selected: @selectedFile.Name (@(selectedFile.Size / 1024) KB)
+            </div>
+        }
+    </div>
+
+    <button class="btn btn-primary" @onclick="SubmitAsync" disabled="@IsSubmitDisabled">
+        @if (isLoading)
+        {
+            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+            <span class="ms-1">Processing...</span>
+        }
+        else
+        {
+            <span>Upload and Send</span>
+        }
+    </button>
+</div>
+
+@if (!string.IsNullOrEmpty(statusMessage))
+{
+    <div class="alert @(isError ? "alert-danger" : "alert-success") mt-3" role="alert">
+        @statusMessage
+    </div>
+}
+
+@code {
+    private IBrowserFile? selectedFile;
+    private string hrEmail = string.Empty;
+    private bool isLoading;
+    private string statusMessage = string.Empty;
+    private bool isError;
+
+    private const long MaxAllowedSize = 10 * 1024 * 1024; // 10 MB
+
+    private bool IsSubmitDisabled => isLoading || selectedFile is null || string.IsNullOrWhiteSpace(hrEmail);
+
+    private void HandleFileSelected(InputFileChangeEventArgs e)
+    {
+        selectedFile = e.File;
+        statusMessage = string.Empty;
+    }
+
+    private async Task SubmitAsync()
+    {
+        if (IsSubmitDisabled) return;
+
+        isLoading = true;
+        isError = false;
+        statusMessage = string.Empty;
+
+        using var cts = new CancellationTokenSource(TimeSpan.FromMinutes(2));
+
+        try
+        {
+            using var content = new MultipartFormDataContent();
+
+            await using var fileStream = selectedFile!.OpenReadStream(MaxAllowedSize, cts.Token);
+            using var streamContent = new StreamContent(fileStream);
+            
+            streamContent.Headers.ContentType = new MediaTypeHeaderValue(selectedFile.ContentType);
+            
+            // "file" and "hrEmail" MUST match the API parameters exactly
+            content.Add(streamContent, "file", selectedFile.Name);
+            content.Add(new StringContent(hrEmail), "hrEmail");
+
+            var response = await Http.PostAsync("/api/TransportTransactions", content, cts.Token);
+
+            if (response.IsSuccessStatusCode)
+            {
+                statusMessage = "Receipt successfully uploaded and sent to HR!";
+                selectedFile = null;
+                hrEmail = string.Empty;
+            }
+            else
+            {
+                var error = await response.Content.ReadAsStringAsync(cts.Token);
+                throw new Exception($"Server returned {response.StatusCode}: {error}");
+            }
+        }
+        catch (Exception ex)
+        {
+            isError = true;
+            statusMessage = $"An error occurred: {ex.Message}";
+        }
+        finally
+        {
+            isLoading = false;
+        }
+    }
+}
