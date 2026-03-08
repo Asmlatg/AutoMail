@@ -10,12 +10,12 @@ public class TransportTransactionRepository : ITransactionRepository
         throw new NotImplementedException();
     }
 
-    public Task AddAsync(TransportTransaction product)
+    public Task AddAsync(TransportTransaction product, CancellationToken cancellationToken)
     {
         throw new NotImplementedException();
     }
 
-    public Task SaveChangesAsync()
+    public Task SaveChangesAsync(CancellationToken ct)
     {
         throw new NotImplementedException();
     }

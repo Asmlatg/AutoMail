@@ -1,4 +1,4 @@
-using AutoMail.Application.UseCases.TransportTransactionPassed;
+using AutoMail.Application.UseCases.TransportTransactions;
 using AutoMail.Domain.Entities;
 using AutoMail.Domain.Entities.enums;
 using AutoMail.Domain.Interfaces;
@@ -15,14 +15,13 @@ public class CreateTransportTransactionCommandHandler(
         var receipt = new TransportTransaction 
         { 
             FileName = request.FileName,
-            Id = Guid.NewGuid() // Or let the DB generate it
+            Id = Guid.NewGuid() 
         };
         
         await repository.AddAsync(receipt, cancellationToken);
         
         try
         {
-            // Stream the file directly to the email service
             await emailService.SendReceiptToHrAsync(request.HrEmail, request.FileName, request.FileStream, cancellationToken);
             receipt.Status = ReceiptReceptionState.Sent;
         }

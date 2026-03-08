@@ -1,5 +1,3 @@
-using System.Net.Mail;
-using System.Net.Mime;
 using AutoMail.Domain.Interfaces;
 using AutoMail.Infrastructure.Configuration;
 using MailKit.Net.Smtp;
@@ -31,8 +29,7 @@ public class SmtpEmailService(
             {
                 TextBody = "Please find the attached transport receipt for processing."
             };
-
-            // Stream is passed directly to the attachment builder to avoid loading the whole file into RAM
+            
             await bodyBuilder.Attachments.AddAsync(fileName, fileStream, ContentType.Parse("application/pdf"), cancellationToken);
             message.Body = bodyBuilder.ToMessageBody();
 

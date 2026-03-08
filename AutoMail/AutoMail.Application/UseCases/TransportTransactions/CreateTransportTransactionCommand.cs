@@ -1,6 +1,6 @@
 using MediatR;
 
-namespace AutoMail.Application.UseCases.TransportTransactionPassed;
+namespace AutoMail.Application.UseCases.TransportTransactions;
 
 public record CreateTransportTransactionCommand(
     Stream FileStream, 
