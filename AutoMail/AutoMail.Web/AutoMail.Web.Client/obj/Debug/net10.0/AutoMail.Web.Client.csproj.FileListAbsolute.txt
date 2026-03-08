@@ -207,8 +207,6 @@
 /home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Web/AutoMail.Web.Client/bin/Debug/net10.0/wwwroot/_framework/icudt_CJK.tjcz0u77k5.dat
 /home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Web/AutoMail.Web.Client/bin/Debug/net10.0/wwwroot/_framework/icudt_EFIGS.tptq2av103.dat
 /home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Web/AutoMail.Web.Client/bin/Debug/net10.0/wwwroot/_framework/icudt_no_CJK.lfu7j35m59.dat
-/home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Web/AutoMail.Web.Client/bin/Debug/net10.0/wwwroot/_framework/AutoMail.Web.Client.s4rf8cpy4g.wasm
-/home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Web/AutoMail.Web.Client/bin/Debug/net10.0/wwwroot/_framework/AutoMail.Web.Client.1ykpk0qexq.pdb
 /home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Web/AutoMail.Web.Client/bin/Debug/net10.0/wwwroot/_framework/dotnet.js
 /home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Web/AutoMail.Web.Client/bin/Debug/net10.0/wwwroot/_framework/blazor.webassembly.js.gz
 /home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Web/AutoMail.Web.Client/bin/Debug/net10.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.1l4onz0xjo.wasm.gz
@@ -418,8 +416,6 @@
 /home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Web/AutoMail.Web.Client/bin/Debug/net10.0/wwwroot/_framework/icudt_CJK.tjcz0u77k5.dat.gz
 /home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Web/AutoMail.Web.Client/bin/Debug/net10.0/wwwroot/_framework/icudt_EFIGS.tptq2av103.dat.gz
 /home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Web/AutoMail.Web.Client/bin/Debug/net10.0/wwwroot/_framework/icudt_no_CJK.lfu7j35m59.dat.gz
-/home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Web/AutoMail.Web.Client/bin/Debug/net10.0/wwwroot/_framework/AutoMail.Web.Client.s4rf8cpy4g.wasm.gz
-/home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Web/AutoMail.Web.Client/bin/Debug/net10.0/wwwroot/_framework/AutoMail.Web.Client.1ykpk0qexq.pdb.gz
 /home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Web/AutoMail.Web.Client/bin/Debug/net10.0/wwwroot/_framework/dotnet.js.gz
 /home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Web/AutoMail.Web.Client/bin/Debug/net10.0/AutoMail.Web.Client.staticwebassets.runtime.json
 /home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Web/AutoMail.Web.Client/bin/Debug/net10.0/AutoMail.Web.Client.staticwebassets.endpoints.json
@@ -1060,9 +1056,6 @@
 /home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Web/AutoMail.Web.Client/obj/Debug/net10.0/compressed/sqmfurt64h-{0}-tjcz0u77k5-tjcz0u77k5.gz
 /home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Web/AutoMail.Web.Client/obj/Debug/net10.0/compressed/7solhvpz6o-{0}-tptq2av103-tptq2av103.gz
 /home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Web/AutoMail.Web.Client/obj/Debug/net10.0/compressed/ir853eguq8-{0}-lfu7j35m59-lfu7j35m59.gz
-/home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Web/AutoMail.Web.Client/obj/Debug/net10.0/compressed/o5uxm89160-{0}-s4rf8cpy4g-s4rf8cpy4g.gz
-/home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Web/AutoMail.Web.Client/obj/Debug/net10.0/compressed/6km6c94pee-{0}-1ykpk0qexq-1ykpk0qexq.gz
-/home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Web/AutoMail.Web.Client/obj/Debug/net10.0/compressed/myy3opix6n-{0}-xpsklvjm4m-xpsklvjm4m.gz
 /home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Web/AutoMail.Web.Client/obj/Debug/net10.0/staticwebassets.build.json
 /home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Web/AutoMail.Web.Client/obj/Debug/net10.0/staticwebassets.build.json.cache
 /home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Web/AutoMail.Web.Client/obj/Debug/net10.0/staticwebassets.development.json
@@ -1073,3 +1066,10 @@
 /home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Web/AutoMail.Web.Client/obj/Debug/net10.0/refint/AutoMail.Web.Client.dll
 /home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Web/AutoMail.Web.Client/obj/Debug/net10.0/AutoMail.Web.Client.pdb
 /home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Web/AutoMail.Web.Client/obj/Debug/net10.0/ref/AutoMail.Web.Client.dll
+/home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Web/AutoMail.Web.Client/bin/Debug/net10.0/wwwroot/_framework/AutoMail.Web.Client.7geq74qifa.wasm
+/home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Web/AutoMail.Web.Client/bin/Debug/net10.0/wwwroot/_framework/AutoMail.Web.Client.l6ygmy4dk6.pdb
+/home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Web/AutoMail.Web.Client/bin/Debug/net10.0/wwwroot/_framework/AutoMail.Web.Client.7geq74qifa.wasm.gz
+/home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Web/AutoMail.Web.Client/bin/Debug/net10.0/wwwroot/_framework/AutoMail.Web.Client.l6ygmy4dk6.pdb.gz
+/home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Web/AutoMail.Web.Client/obj/Debug/net10.0/compressed/o5uxm89160-{0}-7geq74qifa-7geq74qifa.gz
+/home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Web/AutoMail.Web.Client/obj/Debug/net10.0/compressed/6km6c94pee-{0}-l6ygmy4dk6-l6ygmy4dk6.gz
+/home/asmae/Bureau/EmailingDivia/AutoMail/AutoMail/AutoMail.Web/AutoMail.Web.Client/obj/Debug/net10.0/compressed/myy3opix6n-{0}-vf251eu32k-vf251eu32k.gz

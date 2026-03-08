@@ -5,7 +5,7 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
   "mainAssemblyName": "AutoMail.Web.Client",
   "applicationEnvironment": "Development",
   "resources": {
-    "hash": "sha256-ndISeaLPcJ9MoIF7ZQ2xbQz29Y+NO/Et5ikR8YHjhuU=",
+    "hash": "sha256-AyAwqErSEpIyvZa9t+YoH1hMQYWM9OfGZZ7sxbQTEDg=",
     "jsModuleNative": [
       {
         "name": "dotnet.native.87vtjjdetb.js"
@@ -1242,16 +1242,16 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
       },
       {
         "virtualPath": "AutoMail.Web.Client.wasm",
-        "name": "AutoMail.Web.Client.s4rf8cpy4g.wasm",
-        "integrity": "sha256-5AA3H8P6BzW0vmn5zAK257GkToQfvSrw7JQDzDjEKf0=",
+        "name": "AutoMail.Web.Client.7geq74qifa.wasm",
+        "integrity": "sha256-p+LPQzP81stXVoT07fPfqu3iE2Fg79Orrz4YmcU4NF0=",
         "cache": "force-cache"
       }
     ],
     "pdb": [
       {
         "virtualPath": "AutoMail.Web.Client.pdb",
-        "name": "AutoMail.Web.Client.1ykpk0qexq.pdb",
-        "integrity": "sha256-txVltTLXvq2hObFypKMcUyBxMRoXMwh3R6MCJShF6b8=",
+        "name": "AutoMail.Web.Client.l6ygmy4dk6.pdb",
+        "integrity": "sha256-89CUumU501/Vxc7pxWIMs1o7B55H9qrCEqfiBt1EuBk=",
         "cache": "force-cache"
       }
     ],
